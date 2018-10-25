@@ -5,8 +5,7 @@ export default ({ data }) => (
   <div>
     <h1>Hello gatsby-image</h1>
     {data.allWordpressPage.edges.map(edge => {
-      console.log(edge.node.slug)
-      return <li id={edge.node.id} key={edge.node.id}>{edge.node.title}</li>
+        return <li id={edge.node.id} key={edge.node.id}>{edge.node.title}</li>
     })}
   </div>
 )

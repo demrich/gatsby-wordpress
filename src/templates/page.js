@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import Header from '../components/header'
 
 class PageTemplate extends Component {
   render(){
@@ -9,9 +10,12 @@ class PageTemplate extends Component {
       slug: this.props.data.wordpressPage.slug
     }
     console.log(window.location.pathname)
+    console.log(pageNode)
   return (
  <div>
+   <Header />
         <h1>{this.props.data.wordpressPage.title}</h1>
+        {this.props.data.wordpressPage.content}
       </div>
 
   );

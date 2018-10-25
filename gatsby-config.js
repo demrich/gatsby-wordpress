@@ -10,7 +10,7 @@ module.exports = {
        * The base URL of the Wordpress site without the trailingslash and the protocol. This is required.
        * Example : 'gatsbyjsexamplewordpress.wordpress.com' or 'www.example-site.com'
        */
-      baseUrl: "okcopeinc.localhost",
+      baseUrl: "parkenergyservices.com",
       // The protocol. This can be http or https.
       protocol: "http",
       // Indicates whether the site is hosted on wordpress.com.
@@ -21,7 +21,7 @@ module.exports = {
       // If useACF is true, then the source plugin will try to import the Wordpress ACF Plugin contents.
       // This feature is untested for sites hosted on Wordpress.com.
       // Defaults to true.
-      useACF: true,      
+      useACF: false,      
       // Set verboseOutput to true to display a verbose output on `npm run develop` or `npm run build`
       // It can help you debug specific API Endpoints problems.
       verboseOutput: false,
