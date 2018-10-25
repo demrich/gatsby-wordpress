@@ -10,7 +10,6 @@ class PageTemplate extends Component {
       slug: this.props.data.wordpressPage.slug
     }
     console.log(window.location.pathname)
-    console.log(pageNode)
   return (
  <div>
    <Header />
